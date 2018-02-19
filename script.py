@@ -12,7 +12,7 @@ assert "GitHub" in driver.title
 elem = driver.find_element_by_xpath("/html/body/div[1]/header/div/div[2]/div/span/div/a[1]")
 elem.click()
 
-for tentativas in range(12):
+for tentativas in range(12): #necessário modificar essa linha pra mostrar automaticamente o comprimento da lista names em inputs.py
     try:
         element = WebDriverWait(driver, 5).until(
             EC.presence_of_element_located((By.ID, "login_field"))
