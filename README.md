@@ -1,1 +1,1 @@
-Este teste consiste em acessar o github e e fazer tentativas de entradas (username e password) pré-configuradas usando o selenium. Necessário refatorar (muito :) ) o código.
+Este teste consiste em acessar o github e e fazer tentativas de entradas (username e password) pré-configuradas usando o selenium.
